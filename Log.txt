@@ -1,0 +1,11 @@
+************RAILWAY_ER LOG****************
+User:       Query:'EXEC dbo.AddUser 'gaganjit3211', 'c49521f07a61ba10353bc7b069e91720', 'Gaganjit', 'Ghardhora', '08-17-1996', 'gaganjit2@gmail.com', '4082236650', '00126986438794783543048212405796''      SUCCESS
+User:       Query:'EXEC dbo.AddUser 'gaganjit32', 'baed447f8ecb314097fae42a8c8d0940', 'Gaganjit', 'Ghardhora', '08-17-1996', 'gaganjit2@gmail.com', '4082236650', '50661946176927341598443230627662''      FAILED
+User:random	Query:'EXEC dbo.BookCabin 'random', '11/30/2016', 'StationD', 'StationA', '3', '7A1', 'TrainC', 'ECON', '1234567890', '6.00''		SUCCESS
+User:random	Query:'EXEC dbo.BookCabin 'random', '11/30/2016', 'StationB', 'StationD', '3', 'D9A', 'TrainB', 'ECON', '1234567890', '6.00''		SUCCESS
+User:random		Query:'DELETE FROM dbo.booking WHERE invoice_num = 1036'		SUCCESS
+User:random		Query:'DELETE FROM dbo.booking WHERE invoice_num = 1028'		SUCCESS
+User:random		Query:'DELETE FROM dbo.booking WHERE invoice_num = 1033'		SUCCESS
+
+User:       Query:'EXEC dbo.AddUser 'random', '867e5b28d39735ce88d68dab7e7295ba', 'ew', 'wqe', '08-16-1992', 'gaganjit2@gmail.com', '4082236650', '37771212188547222265421088573251''      FAILED
+User:       Query:'EXEC dbo.AddUser 'randomghj', 'a2d0eaeb67a444ef462fdb1e54f31a0e', 'ew', 'wqe', '08-16-1992', 'gaganjit2@gmail.com', '4082236650', '91882990958643922575164849255483''      SUCCESS
